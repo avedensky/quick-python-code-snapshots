@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# Connect to http://www.ripn.net/nic/whois/whois.cgi and get html page with parametrs
+# Connect to http://www.ripn.net/nic/whois/whois.cgi and get html page with parametrs by POST Method
 
 import urllib
 import urllib2
