@@ -1,2 +1,2 @@
-# Sampes-of-python
+# Samples of python
 Quick samples of python
