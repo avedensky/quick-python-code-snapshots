@@ -1,4 +1,4 @@
-# Here is my codes collection sample of python
+# Here is my codes collection
 
 <a href="https://github.com/avedensky/SamplesOffPython/blob/master/excel/xls_write.py">Working with Excel sheets from python</a><br>
 <a href="https://github.com/avedensky/SamplesOffPython/blob/master/logging/log.py">Example logging, with use handler object</a><br>
