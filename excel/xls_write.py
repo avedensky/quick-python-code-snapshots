@@ -3,12 +3,14 @@
 
 import xlwt
 
-# How work with Excel sheets from python (this code depend from xlwt python library)
-# My example
+"""
+How work with Excel sheets from python.
+Attention: This code depend from xlwt python library
+"""
 
 
 def xlsCreate (filename, lst):
-    '''format raw data '''
+    '''format raw data, lst has pair :code and description, this is you data, insert to cells on the finish'''
     wb = xlwt.Workbook()
     ws0 = wb.add_sheet('0')
 
@@ -55,7 +57,7 @@ def xlsCreate (filename, lst):
     i=1
     for item in lst:
         ws0.write(i, 0,item[0], style_nt) #code
-        ws0.write(i, 1,item[1], style_nt)      #description
+        ws0.write(i, 1,item[1], style_nt) #description
         i+=1
 
     ws0.write(0, 0,'Material code', style_left_border_title)
@@ -68,7 +70,7 @@ def xlsCreate (filename, lst):
 
 	#******************************************************************************
 def main ():
-    lst = [('12345','Black'),('12345','White')]
+    lst = [('12345','Black'),('12345','White')] #This is you data, insert to cells on the finish
     xlsCreate ('result.xls', lst)
 
 

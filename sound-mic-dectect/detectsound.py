@@ -1,12 +1,11 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-# The module can detected sound in mic-in
-# This is simple example how this do it
-# Attention! This module depend from pyaudio
-
-
-
+"""
+The module can detected sound in mic-in
+This is simple example how this do it
+Attention! This module depend from pyaudio
+"""
 
 import pyaudio
 import wave
@@ -17,7 +16,6 @@ chunk = 1024
 FORMAT = pyaudio.paInt16
 CHANNELS = 1
 RATE = 44100
-
 
 p = pyaudio.PyAudio()
 
