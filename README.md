@@ -9,3 +9,4 @@
 <a href="https://github.com/avedensky/SamplesOffPython/blob/master/xml-xslt-html/generatorHTML.py">XML + XSLT = HTML, do it.</a><br>
 <a href="https://github.com/avedensky/SamplesOffPython/blob/master/mysql/mysql.py">Sample of mysql</a><br>
 <a href="https://github.com/avedensky/SamplesOffPython/blob/master/request/checkhostbyget.py">Send GET query to HOST and print status (use request lib)</a><br>
+<a href="https://github.com/avedensky/SamplesOffPython/blob/master/thread/threads.py">Sample of Thread</a><br>
