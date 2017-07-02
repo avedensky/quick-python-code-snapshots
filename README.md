@@ -11,4 +11,6 @@
 <a href="https://github.com/avedensky/SamplesOffPython/blob/master/request/checkhostbyget.py">Send GET query to HOST and print status (use request lib)</a><br>
 <a href="https://github.com/avedensky/SamplesOffPython/blob/master/thread/threads.py">Sample of Thread</a><br>
 <a href="https://github.com/avedensky/SamplesOffPython/blob/master/crc/crc.py">FIGHT: CRC32 VS ADLER32. The time test for some big file. (Python 2.x)</a><br>
+<a href="https://github.com/avedensky/SamplesOffPython/blob/master/postgresql/createbd.py">Work with PostgresSQL (psycopg2). Create data base</a><br>
+<a href="https://github.com/avedensky/SamplesOffPython/blob/master/postgresql/createtbl_insert_select.py">Work with PostgresSQL (psycopg2). Create table, Insert data, Select data</a><br>
 
