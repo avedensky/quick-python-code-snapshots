@@ -7,7 +7,7 @@ import datetime
 
 """
 
-Script deletes files in the workdir by last modification time
+Script remove files in the selected directory by last modification time
 
 argument 1: workdir
 argument 2: file exctension (format example:.txt or * for all
