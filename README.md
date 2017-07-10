@@ -17,7 +17,7 @@
 <a href="https://github.com/avedensky/SamplesOffPython/blob/master/dir2csv/dir2csv.py">The program recurse scan directory and write info about every file (size, datatime, md5) to csv file</a><br>
 <a href="https://github.com/avedensky/SamplesOffPython/blob/master/voc2ini/voc2ini.py">The program save pair data from map to ini file</a><br>
 <a href="https://github.com/avedensky/SamplesOffPython/blob/master/send2socket/send2socket.py">Example send message through socket</a><br>
-<a href="https://github.com/avedensky/SamplesOffPython/blob/master/files_remove/remove_files_by_time.py">Script remove files in the selected dir by time from last modification</a><br>
+<a href="https://github.com/avedensky/SamplesOffPython/blob/master/files_remove/remove_files_by_time.py">Remove files in the selected dir by time from last modification</a><br>
 
 
 
