@@ -13,8 +13,8 @@
 <a href="https://github.com/avedensky/SamplesOffPython/blob/master/crc/crc.py">FIGHT: CRC32 VS ADLER32. The time test for some big file. (Python 2.x)</a><br>
 <a href="https://github.com/avedensky/SamplesOffPython/blob/master/postgresql/createbd.py">Work with PostgresSQL (psycopg2). Create data base</a><br>
 <a href="https://github.com/avedensky/SamplesOffPython/blob/master/postgresql/createtbl_insert_select.py">Work with PostgresSQL (psycopg2). Create table, Insert data, Select data</a><br>
-<a href="https://github.com/avedensky/SamplesOffPython/blob/master/dir2csv/dir2csv.py">The program recurse scan directory and write info about every file (size, datatime, md5) to csv file</a><br>
-<a href="https://github.com/avedensky/SamplesOffPython/blob/master/voc2ini/voc2ini.py">The program save pair data from map to ini file</a><br>
+<a href="https://github.com/avedensky/SamplesOffPython/blob/master/dir2csv/dir2csv.py">Recurse scan directory and write info about every file (size, datatime, md5) to csv file</a><br>
+<a href="https://github.com/avedensky/SamplesOffPython/blob/master/voc2ini/voc2ini.py">Save pair data from map to ini file</a><br>
 <a href="https://github.com/avedensky/SamplesOffPython/blob/master/send2socket/send2socket.py">Send message through socket</a><br>
 <a href="https://github.com/avedensky/SamplesOffPython/blob/master/files_remove/remove_files_by_time.py">Remove files in the selected dir by time from last modification</a><br>
 <a href="https://github.com/avedensky/SamplesOffPython/blob/master/ftp/ftp.py">Check selected files by mask in directory and send files to FTP server</a><br>
