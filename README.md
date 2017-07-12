@@ -17,4 +17,4 @@
 <a href="https://github.com/avedensky/SamplesOffPython/blob/master/voc2ini/voc2ini.py">The program save pair data from map to ini file</a><br>
 <a href="https://github.com/avedensky/SamplesOffPython/blob/master/send2socket/send2socket.py">Send message through socket</a><br>
 <a href="https://github.com/avedensky/SamplesOffPython/blob/master/files_remove/remove_files_by_time.py">Remove files in the selected dir by time from last modification</a><br>
-<a href="https://github.com/avedensky/SamplesOffPython/blob/master/files_remove/remove_files_by_time.py">Check selected files by mask in directory and send files to FTP server</a><br>
+<a href="https://github.com/avedensky/SamplesOffPython/blob/master/ftp/ftp.py">Check selected files by mask in directory and send files to FTP server</a><br>
