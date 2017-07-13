@@ -10,9 +10,9 @@ Measuring the execution time of the function
 
 
 def execution_time(fn):
-    def wrapper():
+    def wrapper(*args, **kwargs):
         start_time = time.time()
-        fn()
+        fn(*args, **kwargs)
         end_time = time.time()
         delta_time = end_time - start_time
         print ("\n------------------")
