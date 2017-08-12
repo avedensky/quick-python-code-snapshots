@@ -20,3 +20,4 @@
 <a href="https://github.com/avedensky/SamplesOffPython/blob/master/ftp/ftp.py">Check selected files by mask in directory and send files to FTP server</a><br>
 <a href="https://github.com/avedensky/SamplesOffPython/blob/master/execution_time/execution_time.py">Measuring the execution time of the function</a><br>
 <a href="https://github.com/avedensky/SamplesOffPython/blob/master/mro_c3/mro.py">Short sample MRO C3 algoritm</a><br>
+<a href="https://github.com/avedensky/SamplesOffPython/blob/master/sort_foto/foto_sort_to_dir.py">Sorted foto file by camera model to directory</a><br>
