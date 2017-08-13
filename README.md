@@ -21,5 +21,5 @@
 <a href="https://github.com/avedensky/SamplesOffPython/blob/master/execution_time/execution_time.py">Measuring the execution time of the function</a><br>
 <a href="https://github.com/avedensky/SamplesOffPython/blob/master/mro_c3/mro.py">Short sample MRO C3 algoritm</a><br>
 <a href="https://github.com/avedensky/SamplesOffPython/blob/master/sort_foto/foto_sort_to_dir.py">Sorted foto file by camera model to directory</a><br>
-<a href="https://github.com/avedensky/SamplesOffPython/blob/master/sait_load_testing/stress.py">Site load testing. Script sends specified amount request(GET) to our site used MultiThreading, basic alternative Yandex.Tank :)</a><br>
+<a href="https://github.com/avedensky/SamplesOffPython/blob/master/sait_load_testing/stress.py">Site load testing. Script sends specified amount request(GET) to our site used MultiThreading, basic alternative Yandex.Tank</a><br>
 
