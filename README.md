@@ -22,4 +22,5 @@
 <a href="https://github.com/avedensky/SamplesOffPython/blob/master/mro_c3/mro.py">Short sample MRO C3 algoritm</a><br>
 <a href="https://github.com/avedensky/SamplesOffPython/blob/master/sort_foto/foto_sort_to_dir.py">Sorted foto file by camera model to directory</a><br>
 <a href="https://github.com/avedensky/SamplesOffPython/blob/master/sait_load_testing/stress.py">Site load testing. Script sends specified amount GET request to our site used MultiThreading, basic alternative Yandex.Tank</a><br>
+<a href="https://github.com/avedensky/SamplesOffPython/blob/master/hostname/get_hostname.py">How use const DEBUG depend from hostname</a><br>
 
