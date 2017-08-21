@@ -6,10 +6,9 @@
 	Check ping (linux)
 	Ping host and return dictionary values of ping: min,avg,max,mdev
 
-""" 
-#'ping -q -c5 {0} | tail -n 1 | grep \'rtt\' | cut -c38-39'
-
+"""
 from subprocess import Popen, PIPE
+
 
 def get_ping_values(host):
 	"""
