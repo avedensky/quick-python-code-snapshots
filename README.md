@@ -27,5 +27,5 @@
 <a href="https://github.com/avedensky/SamplesOffPython/blob/master/tkinter/clock.py">Clock, GUI python example. (tkinter)</a><br>
 <a href="https://github.com/avedensky/SamplesOffPython/blob/master/tkinter/button.py">Tkinter, Button python example. (tkinter)</a><br>
 <a href="https://github.com/avedensky/SamplesOffPython/blob/master/ping/ping_values.py">Ping host and return dictionary values of ping: min,avg,max,mdev</a><br>
-
+<a href="https://github.com/avedensky/SamplesOffPython/blob/master/switch/switch_case.py">Switch/case construction in python</a><br>
 
