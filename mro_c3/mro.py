@@ -35,7 +35,8 @@ class D(C, B):
 def main():
 	d=D()
 	d.say()
-	print (D.__mro__)
+	print(D.__mro__)
+	print(D.__bases__)
 
 
 if __name__=='__main__':
