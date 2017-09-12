@@ -1,6 +1,7 @@
 # Here is my codes collection
 
 <a href="https://github.com/avedensky/quick-python-code-snapshots/blob/master/commets-tree/show_comments_tree.py">Comments tree building</a><br>
+<a href="https://github.com/avedensky/quick-python-code-snapshots/blob/master/socket/server_multiproc.py">Working with multiple clients. Used socket and multiprocessing</a><br>
 <a href="https://github.com/avedensky/quick-python-code-snapshots/blob/master/excel/xls_write.py">Working with Excel sheets from python</a><br>
 <a href="https://github.com/avedensky/quick-python-code-snapshots/blob/master/logging/log.py">Example logging, with use handler object</a><br>
 <a href="https://github.com/avedensky/quick-python-code-snapshots/blob/master/logging/log2Console.py">Example logging, some options for pretty output</a><br>
@@ -16,7 +17,7 @@
 <a href="https://github.com/avedensky/quick-python-code-snapshots/blob/master/postgresql/createtbl_insert_select.py">Work with PostgresSQL (psycopg2). Create table, Insert data, Select data</a><br>
 <a href="https://github.com/avedensky/quick-python-code-snapshots/blob/master/dir2csv/dir2csv.py">Recurse scan directory and write info about every file (size, datatime, md5) to csv file</a><br>
 <a href="https://github.com/avedensky/quick-python-code-snapshots/blob/master/voc2ini/voc2ini.py">Save pair data from map to ini file</a><br>
-<a href="https://github.com/avedensky/quick-python-code-snapshots/blob/master/send2socket/send2socket.py">Send message through socket</a><br>
+<a href="https://github.com/avedensky/quick-python-code-snapshots/blob/master/socket/send2socket.py">Send message through socket</a><br>
 <a href="https://github.com/avedensky/quick-python-code-snapshots/blob/master/files_remove/remove_files_by_time.py">Remove files in the selected dir by time from last modification</a><br>
 <a href="https://github.com/avedensky/quick-python-code-snapshots/blob/master/ftp/ftp.py">Check selected files by mask in directory and send files to FTP server</a><br>
 <a href="https://github.com/avedensky/quick-python-code-snapshots/blob/master/execution_time/execution_time.py">Measuring the execution time of the function</a><br>
