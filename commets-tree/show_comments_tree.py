@@ -38,6 +38,7 @@ def show(lst):
     ''' Show to display '''
     for i in lst:              
         print(' ' * (i['level'] * 5) + i['message'])
+        #print(' ' * (i['level'] * 5) + i['path']+' '+i['message'])
         
 
 def get_parrent_id(lst, id):    
