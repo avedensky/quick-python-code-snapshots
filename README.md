@@ -24,7 +24,7 @@
 <a href="https://github.com/avedensky/quick-python-code-snapshots/blob/master/mro_c3/mro.py">Short sample MRO C3 algoritm</a><br>
 <a href="https://github.com/avedensky/quick-python-code-snapshots/blob/master/sort_foto/foto_sort_to_dir.py">Sorted foto file by camera model to directory</a><br>
 <a href="https://github.com/avedensky/quick-python-code-snapshots/blob/master/sait_load_testing/stress.py">Site load testing. Script sends specified amount GET request to our site used MultiThreading, basic alternative Yandex.Tank</a><br>
-<a href="https://github.com/avedensky/quick-python-code-snapshots/blob/master/hostname/get_hostname.py">How use const DEBUG depend from hostname</a><br>
+<a href="https://github.com/avedensky/quick-python-code-snapshots/blob/master/hostname/get_hostname.py">Switch to DEBUG mode by hostname</a><br>
 <a href="https://github.com/avedensky/quick-python-code-snapshots/blob/master/md5/md5filesum.py">Calculate md5 for file</a><br>
 <a href="https://github.com/avedensky/quick-python-code-snapshots/blob/master/tkinter/clock.py">Clock, GUI python example. (tkinter)</a><br>
 <a href="https://github.com/avedensky/quick-python-code-snapshots/blob/master/tkinter/button.py">Tkinter, Button python example. (tkinter)</a><br>
