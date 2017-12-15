@@ -1,4 +1,5 @@
 # Here is my codes collection
+<a href="https://github.com/avedensky/quick-python-code-snapshots/blob/master/exif/get_meta.py">Get meta info (EXIF,IPTC,XMP) from graphical file format as dictionary</a><br>
 <a href="https://github.com/avedensky/quick-python-code-snapshots/blob/master/pass_gen/pass_gen.py">Random password generator</a><br>
 <a href="https://github.com/avedensky/quick-python-code-snapshots/blob/master/commets-tree/show_comments_tree_2.py">Comments tree building, time NxN, need optimization...</a><br>
 <a href="https://github.com/avedensky/quick-python-code-snapshots/blob/master/socket/server_multiproc.py">Working with multiple clients. Used socket and multiprocessing</a><br>
