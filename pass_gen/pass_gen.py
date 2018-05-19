@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 #coding: utf-8
 
+#Generating random pasword
+
 import string
 import random
 
-LENGHT = 10
-s = ''
-for i in range(0, LENGHT):
-    s += random.choice(string.ascii_lowercase+string.digits)
+pass_len = 12
+password = ''.join([random.choice(string.ascii_lowercase+string.digits) for i in range(0, pass_len)])
 
-print(s)    
+print(password)
