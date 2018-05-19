@@ -4,6 +4,7 @@
 <a href="https://github.com/avedensky/quick-python-code-snapshots/blob/master/commets-tree/show_comments_tree_2.py">Comments tree building, time NxN, need optimization...</a><br>
 <a href="https://github.com/avedensky/quick-python-code-snapshots/blob/master/socket/server_multiproc.py">Working with multiple clients. Used socket and multiprocessing</a><br>
 <a href="https://github.com/avedensky/quick-python-code-snapshots/blob/master/excel/xls_write.py">Working with Excel sheets from python</a><br>
+<a href="https://github.com/avedensky/quick-python-code-snapshots/blob/master/logging/advanced_logger/logging_config.py">Logger config for debug and production mode with file rotation, and basic customize</a><br>
 <a href="https://github.com/avedensky/quick-python-code-snapshots/blob/master/logging/cool_config/">Config good loging, (Output to console and file with rotate)</a><br>
 <a href="https://github.com/avedensky/quick-python-code-snapshots/blob/master/logging/log.py">Basic logging, with use handler object</a><br>
 <a href="https://github.com/avedensky/quick-python-code-snapshots/blob/master/logging/log2Console.py">Example logging, some options for pretty output</a><br>
