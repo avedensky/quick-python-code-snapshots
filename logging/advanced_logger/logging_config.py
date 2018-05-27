@@ -76,19 +76,22 @@ class ZipRotatingFileHandlerByTime(logging.handlers.TimedRotatingFileHandler):
         super().__init__(*args, **kwargs)
         self.arhive_name = arhive_name
 
-    def rotate(self, source, dest):
+    def rotate(self, source, dest):        
         path, filename = os.path.split(source)
 
         current_dt = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S-%f')
         new_log_name = '{}_{}'.format(current_dt, filename)
         new_log_path = os.path.join(path, new_log_name)
 
-        os.rename (source, new_log_path)
+        try:
+            os.rename (source, new_log_path)
 
-        with zipfile.ZipFile(self.arhive_name, 'a', zipfile.ZIP_LZMA) as myzip:
-            myzip.write(new_log_path, new_log_name)
+            with zipfile.ZipFile(self.arhive_name, 'a', zipfile.ZIP_LZMA) as myzip:
+                myzip.write(new_log_path, new_log_name)
 
-        remove(new_log_path)
+            remove(new_log_path)
+        except (PermissionError, FileNotFoundError, OSError) as e:            
+            super().rotate(source, dest)
 
 
 class ZipRotatingFileHandlerBySize(logging.handlers.RotatingFileHandler):
@@ -96,19 +99,22 @@ class ZipRotatingFileHandlerBySize(logging.handlers.RotatingFileHandler):
         super().__init__(*args, **kwargs)
         self.arhive_name = arhive_name
 
-    def rotate(self, source, dest):
+    def rotate(self, source, dest):        
         path, filename = os.path.split(source)
 
         current_dt = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S-%f')
         new_log_name = '{}_{}'.format(current_dt, filename)
         new_log_path = os.path.join(path, new_log_name)
+            
+        try:
+            os.rename (source, new_log_path)
 
-        os.rename (source, new_log_path)
+            with zipfile.ZipFile(self.arhive_name, 'a', zipfile.ZIP_LZMA) as myzip:
+                myzip.write(new_log_path, new_log_name)
 
-        with zipfile.ZipFile(self.arhive_name, 'a', zipfile.ZIP_LZMA) as myzip:
-            myzip.write(new_log_path, new_log_name)
-
-        remove(new_log_path)        
+            remove(new_log_path)
+        except (PermissionError, FileNotFoundError, OSError) as e:            
+            super().rotate(source, dest)
 
 
 dictLogConfig = {    
@@ -163,7 +169,7 @@ dictLogConfig = {
             'formatter': 'file_formater',
             'filters': ['debug_mode_true'],
             'arhive_name': getenv('ARHIVE_NANE', 'logs.zip'),       # !NEED define - if 'class': 'ZipRotatingFileHandler...'
-            'when':'h',                                             # !NEED define - if 'class': 'ZipRotatingFileHandlerByTime' values: s, m, h, d
+            'when':'m',                                             # !NEED define - if 'class': 'ZipRotatingFileHandlerByTime' values: s, m, h, d
         },
 
         'production_mode_file': {
@@ -177,7 +183,7 @@ dictLogConfig = {
             'formatter': 'file_formater',           
             'filters': ['debug_mode_false'],
             'arhive_name': getenv('ARHIVE_NANE', 'logs.zip'),        # !NEED define - if 'class': 'ZipRotatingFileHandler...'
-            'when':'h',                                              # !NEED define - if 'class': 'ZipRotatingFileHandlerByTime' values: s, m, h, d
+            'when':'m',                                              # !NEED define - if 'class': 'ZipRotatingFileHandlerByTime' values: s, m, h, d
         }
 
     },
